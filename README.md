@@ -28,4 +28,5 @@ gcc -O3 fib.c -lgmp -o fib
 ## Usage
 
 ./fib 100 # shows time taken to calculate
+
 ./fib 100 -p # prints result to console, note, this WILL flood console for high numbers
