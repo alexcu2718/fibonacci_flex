@@ -19,8 +19,10 @@ Ultra-fast Fibonacci number calculator supporting arbitrarily large numbers.
 
 You'll need libgmp-dev
 
-git clone https://github.com/alexcu2718/fibonacci_flexer.git
+git clone https://github.com/alexcu2718/fibonacci_flex.git
+
 cd fibonacci_flexer
+
 gcc -O3 fib.c -lgmp -o fib
 
 ## Usage
