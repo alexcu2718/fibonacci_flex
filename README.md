@@ -8,6 +8,7 @@ Ultra-fast Fibonacci number calculator supporting arbitrarily large numbers.
 - Arbitrary precision using GMP library
 - Memory-efficient caching system
 - Sub-second computation for most inputs
+- Singlecore only until I work out threading.
 
 ## Requirements
 
@@ -21,7 +22,7 @@ You'll need libgmp-dev
 
 git clone https://github.com/alexcu2718/fibonacci_flex.git
 
-cd fibonacci_flexer
+cd fibonacci_flex
 
 gcc -O3 fib.c -lgmp -o fib
 
